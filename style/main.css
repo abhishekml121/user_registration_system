@@ -1,0 +1,135 @@
+#form_div {
+    max-width: 500px;
+    font-family: sans-serif;
+}
+
+#form_div #h2_form_div {
+    margin-bottom: 20px;
+    background: linear-gradient(400deg, rgba(116, 170, 234, 0.47) 20%, rgba(239, 179, 142, 0.54) 60%);
+    padding: 10px;
+
+
+}
+
+#form_div #h2_form_div h2 {
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+
+}
+
+#form {
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+#form .input_div {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#form label {
+    min-width: 200px;
+    display: inline-block;
+}
+
+
+#form input:not([type='submit']) {
+    font-size: 20px;
+    padding: 5px 1px;
+    outline: none;
+    border: none;
+    color: #656363;
+    border-bottom: 1px solid #919191;
+    background: white;
+}
+
+#form input[type='submit'] {
+    font-size: 22px;
+    padding: 6px 10px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #555;
+    box-shadow: 0px 7px 8px -8px;
+    position: relative;
+    top: -2px;
+}
+
+#form input[type='submit']:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 0px;
+
+}
+
+#form input[type='submit']:hover {
+    -webkit-animation-name: input_gr;
+    animation-name: input_gr;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 4;
+    animation-iteration-count: 4;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+}
+
+#form .submit_div {
+    display: block;
+    width: 473px;
+    text-align: right;
+    margin-bottom: 0px;
+
+}
+
+#form input:not([type='submit']):focus {
+
+    padding: 4.3px 1px 4.3px 1px;
+    border: 1px solid #919191;
+    font-size: 20px;
+    -webkit-animation-name: input_gr;
+    animation-name: input_gr;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 4;
+    animation-iteration-count: 4;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+}
+
+#uncheck_img {
+    width: 20px;
+    display: inline-block;
+    position: relative;
+    right: -60px;
+}
+
+#uncheck_img img {
+    vertical-align: top;
+    width: 100%;
+    cursor: pointer;
+}
+
+.errors {
+    padding: 10px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+    color: red
+}
+
+.msg {
+    color: white;
+    background: green;
+    padding: 10px;
+    margin-bottom: 10px;
+}
