@@ -9,5 +9,5 @@ This is a user registration system in PHP
 - When a user sinup or login then send sms through email .
 - Email confirmation so that user can't use FAKE email .
 
-#More in this web-page :
+#MORE IN THIS WEB-PAGE :
 - It'll track the user activities (log table).
