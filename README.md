@@ -8,3 +8,6 @@ This is a user registration system in PHP
 #TODO :
 - When a user sinup or login then send sms through email .
 - Email confirmation so that user can't use FAKE email .
+
+#More in this web-page :
+- It'll track the user activities (log table).
